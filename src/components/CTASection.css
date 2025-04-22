@@ -1,0 +1,38 @@
+.cta-section {
+  background-color: #e5e5e5;
+  padding: 60px 20px;
+  text-align: center;
+  margin-left: 60px;
+}
+
+.cta-box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cta-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 25px;
+}
+
+.cta-bold {
+  font-weight: 700;
+}
+
+.cta-button {
+  background-color: #d62828;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #b32020;
+}

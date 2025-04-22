@@ -1,0 +1,60 @@
+.navbar {
+  margin-left: 80px; /* space for sidebar */
+  background-color: #fff;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  flex-wrap: wrap; /* allow wrapping on small screens */
+}
+
+
+
+.logo-text span {
+  color: #555;
+}
+
+.nav-info {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+
+/* 🔽 Tablet */
+@media (max-width: 768px) {
+  .navbar {
+    margin-left: 0;
+    padding: 10px 20px;
+    flex-direction: row; /* 👈 keep it horizontal */
+    justify-content: flex-end; /* 👈 right-aligned */
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .nav-info {
+    gap: 20px;
+    font-size: 13px;
+    flex-wrap: wrap;
+    justify-content: flex-end; /* optional if needed */
+  }
+}
+
+/* 🔽 Mobile */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px 15px;
+    flex-direction: row; /* 👈 stay horizontal */
+    justify-content: flex-end; /* 👈 right-aligned */
+    align-items: center;
+  }
+
+  .nav-info {
+    flex-direction: row; /* 👈 prevent vertical stack */
+    justify-content: flex-end;
+    gap: 10px;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+}
