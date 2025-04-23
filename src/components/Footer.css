@@ -69,3 +69,9 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 600px) {
+  .footer {
+    margin-left: 0px;
+  }
+}

@@ -68,7 +68,6 @@
   border-radius: 4px;
 }
 
-/* 🔽 Responsive styles */
 @media (max-width: 1024px) {
   .about-section {
     flex-direction: column;

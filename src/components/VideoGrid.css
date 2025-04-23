@@ -64,4 +64,7 @@
   .video-grid {
     grid-template-columns: 1fr;
   }
+  .video-grid-section {
+    margin-left: 0px;
+  }
 }

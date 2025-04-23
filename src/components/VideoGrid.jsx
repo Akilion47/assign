@@ -1,6 +1,6 @@
 import React from 'react';
 import './VideoGrid.css';
-import camImg from '../assets/images/image.png'; // use local import for better control
+import camImg from '../assets/images/image.png'; 
 
 const gridItems = [
   { type: 'image', src: camImg },
